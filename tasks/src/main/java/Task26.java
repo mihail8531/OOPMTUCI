@@ -1,5 +1,19 @@
 public class Task26 {
 
+    public static void main(String[] args) {
+        System.out.println(oppositeHouse(3, 5));
+        System.out.println(nameShuffle("Donald Trump"));
+        System.out.println(discount(89, 20));
+        System.out.println(differenceMaxMin(new int[] {10, 4, 1, 4, -10, -50, 32, 21}));
+        System.out.println(equal(3, 4, 2));
+        System.out.println(reverse("Hello World"));
+        System.out.println(programmers(147, 33, 526));
+        System.out.println(getXO("ooxXm"));
+        System.out.println(bomb("There is a bomb."));
+        System.out.println(sameAscii("AA", "B@"));
+
+    }
+
     public static int oppositeHouse(int houseNumber, int houseCount) {
         return 2 * houseCount - houseNumber + 1;
     }

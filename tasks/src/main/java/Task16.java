@@ -1,5 +1,23 @@
-public class Task16 {
+import java.security.Signature;
+import java.util.Scanner;
 
+public class Task16 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        /*
+        System.out.println(convert(scanner.nextInt()));
+        System.out.println(points(scanner.nextInt(), scanner.nextInt()));
+        System.out.println(footballPoints(scanner.nextInt(), scanner.nextInt(), scanner.nextInt()));
+        System.out.println(divisibleByFive(scanner.nextInt()));
+        System.out.println(and(scanner.nextBoolean(), scanner.nextBoolean()));
+        System.out.println(howManyWalls(scanner.nextInt(), scanner.nextInt(), scanner.nextInt()));
+        System.out.println(squared(scanner.nextInt()));
+        */
+
+        System.out.println(profitableGamble(scanner.nextFloat(), scanner.nextInt(), scanner.nextInt()));
+        System.out.println(frames(scanner.nextInt(), scanner.nextInt()));
+        System.out.println(mod(scanner.nextInt(), scanner.nextInt()));
+    }
     public static int convert(int minutes) {
         return minutes * 60;
     }
